@@ -1,0 +1,13 @@
+train: C:/yolov5-master2/dataset/train/images
+val: C:/yolov5-master2/dataset/valid/images
+test: C:/yolov5-master2/dataset/test/images
+
+nc: 5
+names: ['Multifunction', 'Scooter', 'racing car', 'street car', 'wagon']
+
+roboflow:
+  workspace: rightbanklion-stwyh
+  project: vehicles-bkcka
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/rightbanklion-stwyh/vehicles-bkcka/dataset/1
